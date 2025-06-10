@@ -2,7 +2,8 @@ name: Run Barca Bot
 
 on:
   schedule:
-    - cron: '27 18 * * *'  # runs every day at 18:27 UTC (change if needed)
+    - cron: 'cron: '30 4 * * *'
+ # runs every day at 18:27 UTC (change if needed)
   workflow_dispatch:  # allows manual run from Actions tab
 
 jobs:
