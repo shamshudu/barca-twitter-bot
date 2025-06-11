@@ -21,7 +21,7 @@ today = date.today()
 days_since_win = (today - ucl_win_date).days
 
 # === Prepare tweet text (short version) ===
-tweet_text = f"Day {days_since_win} #ViscaBarça #UCL"
+tweet_text = f"{days}"
 
 # === Post tweet ===
 try:
