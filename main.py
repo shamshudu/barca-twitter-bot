@@ -1,4 +1,5 @@
 import tweepy
+import os
 from datetime import date
 
 # === Your API keys ===
@@ -21,7 +22,8 @@ today = date.today()
 days_since_win = (today - ucl_win_date).days
 
 # === Prepare tweet text (short version) ===
-tweet_text = f"{days}"
+tweet_text = f"{days_since_win}"
+
 
 # === Post tweet ===
 try:
